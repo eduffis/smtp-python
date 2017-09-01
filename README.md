@@ -1,5 +1,7 @@
 # smtp-python
 smtp server that uses a gmail account with any other .com domain, using a mail client (Thunder Bird / Outlook express or any other).
+when the end user answers your email it is returned/replay to your domain.com INBOX, not to gmail. The process is transparent to the Client
+
 This code saves your life with the problem of email and blacklists. Because I could not find any program on the internet that made the client's (Thunder Bird/OutLook) teams work transparently without having to do any installation in each one. I decided to develop this program that generates an SMTP server, receives all the requests of the clients in a specific port and transfers them to a GMAIL account, in this way I do not have to use my public IP that every month appears in a new blacklist
 
 This application  was tested on a Python 2.7 and Ubuntu server 12.4
