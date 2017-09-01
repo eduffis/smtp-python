@@ -1,7 +1,8 @@
 # smtp-python
-This code saves your life with the problem of email and blacklists. Because I could not find any program on the internet that made the client's teams work transparently without having to do any installation in each one. I decided to develop this program that generates an SMTP server, receives all the requests of the clients for a specific port and transfers them to a GMAIL account, in this way I do not have to use my public IP that every month appears in a new blacklist
+smtp server that uses a gmail account with any other .com domain, using a mail client (Thunder Bird / Outlook express or any other).
+This code saves your life with the problem of email and blacklists. Because I could not find any program on the internet that made the client's (Thunder Bird/OutLook) teams work transparently without having to do any installation in each one. I decided to develop this program that generates an SMTP server, receives all the requests of the clients in a specific port and transfers them to a GMAIL account, in this way I do not have to use my public IP that every month appears in a new blacklist
 
-This application was tested on a Ubuntu server 12.4
+This application  was tested on a Python 2.7 and Ubuntu server 12.4
 To put it to work you do not need experience in python just put to run the program and you're done.
 Before running it, edit the smtp-server.py file:
 Edit row 23, EGMAIL = "gmailacount@gmail.com" and enter your gmail account, then edit row 24, SERVER = "192.168.0.16", enter the ip number of the linux server, row 25 , SMTP_PORT = 3025, you can leave this way or place some port of preference, row 26, PASSWD = "yourPassword", the password of the GMAIL account.
