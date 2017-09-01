@@ -16,10 +16,8 @@ chmod a + x smtp-server.py
 and then run:
 ./smtp-server.py
 
-For users or customers, the test was run under the ThunderBird program under Windows, but it can certainly work in any other mail client because almost all are configured in the same way
-
-Cliente computer config:
-For client computers, it was tested with the program ThunderBird under Windows, but surely it will work in any other mail client because almost all are configured in the same way.
+Clients computer config:
+For users or clients, the test was run under the ThunderBird program under Windows, but it can certainly work in any other mail client because almost all are configured in the same way
 
 In the Tools menu, choose Email accounts, SMTP outgoing server, Add new account.
 In the description you can place any name. In the name of the server placed the same IP number that was configured, in my case 192.168.0.16
@@ -27,10 +25,12 @@ the port number is also the same that we put in file 3025.
 
 In connection security select the option that says (none), and in the method of identification, password transmitted in an insecure way.
 
-can check the JPG goat to get a better idea.
+can check the JPG file to get a better idea.
 
 Warning:
 I do not recommend running the code on a server that has a public IP, because we are not using any method of encryption, you must be sure that it is a machine with private address.
 
 Finishing:
-This program was made with the intention of helping those who, like me, suffer from the blacklist problem, we as system administrators know that it is a headache or a kick in the buttock. I am not responsible if it is used improperly and maliciously.
+This program was made with the intention of helping those who suffer like me, with the blacklisting problem, we as system administrators know that it is a headache or a kick in the buttock. I am not responsible if it is used improperly and maliciously.
+
+
