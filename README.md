@@ -1,0 +1,2 @@
+# smtp-python
+This code saves your life with the problem of email and blacklists. Because I could not find any program on the internet that made the client's teams work transparently without having to do any installation in each one. I decided to develop this program that generates an SMTP server, receives all the requests of the clients for a specific port and transfers them to a GMAIL account, in this way I do not have to use my public IP that every month appears in a new blacklist
