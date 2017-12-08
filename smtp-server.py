@@ -64,11 +64,7 @@ class CustomSMTPServer(smtpd.SMTPServer):
     
 	def process_message(self, peer, mailfrom, rcpttos, data):		
 		print 'Ip Address:', peer
-		print 'Messages length:', len(data)
-		"""
-		Maul From:', mailfrom
-		Address To  :', rcpttos		
-		"""
+		print 'Messages length:', len(data)		
 		
 		#geting email from string
 		msg = email.message_from_string(data)
